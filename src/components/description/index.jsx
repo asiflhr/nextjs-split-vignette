@@ -3,7 +3,7 @@ import styles from './style.module.scss';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
-export default function index({mousePosition, projects}) {
+export default function Description({mousePosition, projects}) {
   const [index, setIndex] = useState(0);
   const {x, y} = mousePosition;
 

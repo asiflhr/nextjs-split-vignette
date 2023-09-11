@@ -1,7 +1,8 @@
 import styles from './style.module.scss'
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-export default function index({mousePosition, handle}) {
+
+export default function Gallery({mousePosition, handle}) {
   
   const { x, y } = mousePosition;
   
